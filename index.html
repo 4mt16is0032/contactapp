@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>contact App</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <h3>my contacts</h3>
+    <hr/>
+    <p>
+        <input type="text" name="cname"
+           id="cname" class="cname" 
+           placeholder="enter a name">
+    </p>
+    
+     <p>
+        <input type="text" name="email"
+           id="email" class="email" 
+           placeholder="enter a email">
+    </p>
+    
+    <p>
+        <input type="text" name="mobile"
+           id="mobile" class="mobile" 
+           placeholder="enter a mobile">
+    </p>
+    
+    <p>
+        <button onclick="addContact()" id="add">Add a contact</button>
+        
+        <button onclick="updateContact()" id="update">Update a contact</button>
+        
+    </p>
+    <hr/>
+    
+    
+    <div id="content"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
